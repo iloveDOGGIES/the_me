@@ -29,10 +29,13 @@
 
     <img src="https://i.ytimg.com/vi/MPV2METPeJU/maxresdefault.jpg">
 
-    <button onclick="alert('Hello people!');">press me!</button>
+    <button onclick="askquestion('What is your favorite dog breed?');">press me!</button>
      
     <script>
-   
+   function askquestion(question){
+   answer = prompt(question);
+     alert(answer + "? cool!")
+   }
     </script>
   </body>
 </html>
